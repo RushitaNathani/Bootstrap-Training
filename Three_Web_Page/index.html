@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Third Web Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+            /* Custom style */
+            .accordion-button::after {
+              background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M8 0a1 1 0 0 1 1 1v6h6a1 1 0 1 1 0 2H9v6a1 1 0 1 1-2 0V9H1a1 1 0 0 1 0-2h6V1a1 1 0 0 1 1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+              transform: scale(.7) !important;
+            }
+            .accordion-button:not(.collapsed)::after {
+              background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M0 8a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H1a1 1 0 0 1-1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="accordion" id="MyAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button type="button" class="accordion-button collapsed bg-light fw-bold text-dark" data-bs-toggle="collapse" data-bs-target="#collapseOne">Lorem Ipsum Dolor 1</button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#MyAccordion">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="img1.png" class="img-fluid p-3">
+                                </div>
+                                <div class="col-md-9">
+                                    <p class="text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                    <ul class="list text-secondary">
+                                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit,</li>
+                                        <li class="pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit,</li>
+                                        <li class="pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit,</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion" id="MyAccordion">
+                    <div class="accordion-item mt-4">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button type="button" class="accordion-button collapsed bg-light fw-bold text-dark" data-bs-toggle="collapse" data-bs-target="#collapseTwo">Lorem Ipsum Dolor 2</button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#MyAccordion">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="img2.png" class="img-fluid p-3">
+                                    </div>
+                                    <div class="col-md-9">
+                                        <div class="table-responsive">
+                                            <table class="table table-bordered table-striped mt-3 w-100">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="text-start">Company Name</td>
+                                                        <td>Top Priority Issue</td>
+                                                        <td>Primary Issue</td>
+                                                        <td>Issue Resolved</td>
+                                                        <td>Warned Issue</td>
+                                                        <td>Total</td>
+                                                    </tr>
+                                                    <tr class="text-center">
+                                                        <td class="text-start pe-5">Lorem and Sons</td>
+                                                        <td class="text-center text-white">
+                                                            <span class="badge bg-danger px-4">2</span>
+                                                        </td>
+                                                        <td class="text-center text-white">
+                                                            <h6><span class="badge bg-primary px-4">1</span></h6>
+                                                        </td>
+                                                        <td class="text-center text-white">
+                                                            <h6><span class="badge bg-success px-4">68</span></h6>
+                                                        </td>
+                                                        <td class="text-center text-white">
+                                                            <h6><span class="badge bg-warning px-4">81</span></h6>
+                                                        </td>
+                                                        <td class="ps-3 text-white px-5">
+                                                            <h6><span class="badge bg-secondary px-3">149</span></h6>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="text-center">
+                                                        <td class="text-start">Ipsum dolor set</td>
+                                                        <td class="text-center text-white">
+                                                            <h6><span class="badge bg-danger px-4">22</span></h6>
+                                                        </td>
+                                                        <td class="text-center text-white">
+                                                            <h6><span class="badge bg-primary px-4">15</span></h6>
+                                                        </td>
+                                                        <td class="text-center text-white">
+                                                            <h6><span class="badge bg-success px-3">106</span></h6>
+                                                        </td>
+                                                        <td class="text-center text-white">
+                                                            <h6><span class="badge bg-warning px-4">21</span></h6>
+                                                        </td>
+                                                        <td class="ps-3 text-white px-5">
+                                                            <h6><span class="badge bg-secondary px-3">127</span></h6>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="text-center">
+                                                        <td class="text-start">Et min vladimir</td>
+                                                        <td class="text-center text-white">
+                                                            <h6><span class="badge bg-danger px-4">93</span></h6>
+                                                        </td>
+                                                        <td class="text-center text-white">
+                                                            <h6><span class="badge bg-primary px-4">29</span></h6>
+                                                        </td>
+                                                        <td class="text-center text-white">
+                                                            <h6><span class="badge bg-success px-3">143</span></h6>
+                                                        </td>
+                                                        <td class="text-center text-white">
+                                                            <h6><span class="badge bg-warning px-4">18</span></h6>
+                                                        </td>
+                                                        <td class="ps-3 text-white px-5">
+                                                            <h6><span class="badge bg-secondary px-3">161</span></h6>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="text-center">
+                                                        <td class="text-start">Jelenski Rusi</td>
+                                                        <td class="text-center text-white">
+                                                            <h6><span class="badge bg-danger px-4">25</span></h6>
+                                                        </td>
+                                                        <td class="text-center text-white">
+                                                            <h6><span class="badge bg-primary px-4">17</span></h6>
+                                                        </td>
+                                                        <td class="text-center text-white">
+                                                            <h6><span class="badge bg-success px-3">108</span></h6>
+                                                        </td>
+                                                        <td class="text-center text-white">
+                                                            <h6><span class="badge bg-warning px-4">57</span></h6>
+                                                        </td>
+                                                        <td class="ps-3 text-white px-5">
+                                                            <h6><span class="badge bg-secondary px-3">165</span></h6>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion" id="MyAccordion">
+                    <div class="accordion-item mt-4">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button type="button" class="accordion-button collapsed bg-light fw-bold" data-bs-toggle="collapse" data-bs-target="#collapsethree">Lorem Ipsum Dolor 3</button>
+                        </h2>
+                    </div>
+                </div>
+                <div class="accordion" id="MyAccordion">
+                    <div class="accordion-item mt-4">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button type="button" class="accordion-button collapsed bg-light fw-bold" data-bs-toggle="collapse" data-bs-target="#collapsefour">Lorem Ipsum Dolor 4</button>
+                        </h2>
+                    </div>
+                </div>
+                <div class="accordion" id="MyAccordion">
+                    <div class="accordion-item mt-4">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button type="button" class="accordion-button collapsed bg-light fw-bold" data-bs-toggle="collapse" data-bs-target="#collapsefiv">Lorem Ipsum Dolor 5</button>
+                        </h2>
+                    </div>
+                </div>
+                <div class="accordion" id="MyAccordion">
+                    <div class="accordion-item mt-4">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button type="button" class="accordion-button collapsed bg-light fw-bold" data-bs-toggle="collapse" data-bs-target="#collapsefiv">Lorem Ipsum Dolor 6</button>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/bootstrap.bundle.min.js"></script>
+    </body>
+</html> 
