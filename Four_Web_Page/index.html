@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Four Web Page</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            body{
+                position: relative; /* required */
+            }
+              
+            /* Custom style to stick list group on top */
+            .list-group{
+                position: sticky;
+                top: 15px;
+            }
+            </style>
+    </head>
+    <body data-bs-spy="scroll" data-bs-offset="15" data-bs-target="#myScrollspy">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="list-group w-75 text-center text-primary" id="myScrollspy"> 
+                        <a class="list-group-item list-group-item-action active m-2 border-dark border-top rounded" href="#section1">About us</a>
+                        <a class="list-group-item list-group-item-action m-2 border-dark border-top rounded" href="#section2">Photo Gallary</a>
+                        <a class="list-group-item list-group-item-action m-2 border-dark border-top rounded" href="#section3">Request a visit</a>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="row me-4">
+                        <div class="col-md-12 border rounded shadow-lg mt-4">
+                            <div id="section1">
+                                <h2 class="text-primary text-uppercase m-3">about us</h2>
+                                <p class="ms-2"><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus non impedit quae inventore adipisci voluptate minus dolor odio, soluta esse cum vero voluptatum expedita aperiam ullam dicta repellat, iste illum nostrum, repudiandae magni! Nam voluptates impedit atque soluta expedita, modi iusto hic molestias vel eveniet!</small></p>
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <img src="img2.png" class="img-fluid h-75 w-100 ms-2 mt-3">
+                                    </div>
+                                    <div class="col-md-7">
+                                            <p class="ms-3 py-2 me-3"><small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur sed corrupti ipsam omnis rem, delectus nobis sint quae unde dignissimos repudiandae doloremque repellendus accusantium commodi dolorum voluptates eius beatae autem culpa. Quaerat reiciendis fugit mollitia nulla nesciunt at veniam est error, laboriosam iure, neque earum optio. Iste ullam consequatur ducimus quaerat est enim animi, earum eligendi commodi reprehenderit accusamus unde, adipisci culpa dicta dolor sint voluptatem itaque ipsa beatae inventore saepe ut. Exercitationem, ratione assumenda facilis sunt fugit ut enim.</small></p>
+                                            <p class="ms-3 py-2 me-3"><small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam voluptatibus explicabo eius labore velit ut molestias ea, iste officia magnam illum qui, maiores doloremque itaque quod! Quia molestias at architecto reiciendis excepturi nemo accusantium, facere incidunt dolorum nobis.</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 border rounded mt-4 bg-primary text-white pb-3">
+                            <div id="section2">
+                                <h2 class=" text-uppercase m-3">photo gallary</h2>
+                                <p class="ms-2"><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus non impedit quae inventore adipisci voluptate minus dolor odio, soluta esse cum vero voluptatum expedita aperiam ullam dicta repellat, iste illum nostrum, repudiandae magni! Nam voluptates.Quia molestias at architecto.</small></p>
+                                <div class="row g-0">
+                                    <div class="col-md-3">
+                                       <img src="img1.png" class="img-fluid border border-5 border-white">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="img1.png" class="img-fluid border border-5 border-white">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="img1.png" class="img-fluid border border-5 border-white">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="img1.png" class="img-fluid border border-5 border-white">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="img1.png" class="img-fluid border border-5 border-white">
+                                     </div>
+                                    <div class="col-md-3">
+                                         <img src="img1.png" class="img-fluid border border-5 border-white">
+                                    </div>
+                                    <div class="col-md-3">
+                                         <img src="img1.png" class="img-fluid border border-5 border-white">
+                                    </div>
+                                    <div class="col-md-3">
+                                         <img src="img1.png" class="img-fluid border border-5 border-white">
+                                    </div>
+                                </div>
+                                <div class="text-center m-4">
+                                    <button class="text-uppercase bg-info text-white border border-0 rounded px-3 py-1"><small>load more</small></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 border rounded shadow-lg mt-4">
+                            <div id="section3">
+                                <h2 class="text-primary text-uppercase ms-3 mt-3">request a visit</h2>
+                                <p class="ms-3"><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus non impedit quae inventore adipisci voluptate minus dolor odio, soluta esse cum vero voluptatum expedita aperiam ullam dicta repellat, iste illum nostrum, repudiandae magni! Nam voluptates impedit atque soluta expedita, modi iusto hic molestias vel eveniet!</small></p>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <p class="ms-3 py-2"><small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur sed corrupti ipsam omnis rem.</small></p>
+                                        <form>
+                                            <input type="text" class="w-100 border-0 border border-bottom mt-3" id="inputname" placeholder="NAME">
+                                            <input type="email" class="w-100 border-0 border border-bottom mt-3" id="inputEmail" placeholder="EMAIL ADDRESS">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <input type="text" class="w-100 border-0 border border-bottom mt-3" id="inputdate" placeholder="DD-MM-YYYY">
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <input type="text" class="w-100 border-0 border border-bottom mt-3" id="inputtime" placeholder="SELECT TIME">
+                                                </div>
+                                            </div>
+                                            <button class="ps-5 pe-5 bg-dark text-white w-100 mt-5 mb-5 text-uppercase py-1"><small>contact</small></button>
+                                        </form>   
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img src="mapimg.png" class="img-fluid h-75 w-100 ms-2 mt-3">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
