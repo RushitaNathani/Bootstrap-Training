@@ -1,0 +1,111 @@
+.header_color
+{
+    background-color: #2C4482;
+}
+.f-color
+{
+    color: #2C4482;
+    border-color: #2C4482;
+}
+.sf-color
+{
+    color: #8E9BBE;
+}
+.sb-color
+{
+    background-color: #E7EDFF;
+}
+.f_content_color
+{
+    background-color: #e9f5f5;
+}
+.img-1 
+{
+    /* display: inline; */
+    margin-top: -60px;   
+}
+.line{
+    width: 330px;
+}
+.ps
+{
+    padding-left: 670px;
+}
+.carousel-item-size{
+    height: 750px;
+}
+.tf
+{
+    color: #77D29C;
+}
+.font-size
+{
+    font-size: 18.9px;
+}
+.tc-color
+{
+    background-color: #f3e4f0;
+}
+.tt-color
+{
+    color: #F276D7;
+}
+.ft-color
+{
+    color: #51A2C3;
+}
+.fivet-color
+{
+    color:#2CC8DD
+}
+.header-font
+{
+    color: #2C4482;
+}
+.first-navbar
+{
+    color: #FF9600;
+}
+.div-size
+{
+    width: 800px;
+    margin-left:360px;
+    margin-top: -470px;
+}
+.last-text
+{
+    color: #738dd1;
+}
+.last-margin
+{
+    margin-top: 90px;
+}
+.carousel .carousel-indicators li {
+    width: 10px;
+   height: 10px;
+   border-radius: 100%;
+   padding: 2px;
+}
+.last-logo
+{
+    background-color: #2C4482;
+    border-radius: 50px;
+    padding: 7px;
+}
+.phone-logo
+{
+    height: 24px;
+}
+.nav-pills .pill .nav-link:not(.active)
+{
+    background-color: #e9f5f5;
+}
+.nav-pills .pill .nav-link
+{
+    background-color: #77D29C;
+}
+.back-img
+{
+    background-image: url("images/form-bg.png");
+    background-repeat: no-repeat;
+}
